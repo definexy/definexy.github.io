@@ -1,181 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
     <title>Novelty IDs</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <script src="assets/js/jquery.min.js"></script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 
-</head>
+  </head>
 
-<body>
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
-    <div class="brand">Business Casual</div>
-    <div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 | 123.456.7890</div>
+	<!-- Menu -->
+	<nav class="navbar navbar-fixed-top" id="theMenu">
+		<div id="h">
+			<a href="#home" class="smoothScroll">Home</a>
+			&bull;
+			<a href="#pricing" class="smoothScroll">Pricing</a>
+			&bull;
+			<a href="#examples" class="smoothScroll">Examples</a>
+			&bull;
+			<a href="#contact" class="smoothScroll">Contact/Order</a>
+			<br>
+		</div>
+	</nav>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
 
-    <div class="container">
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
+	<!-- ========== HEADER SECTION ========== -->
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+		<div class="container">
+			<div class="logo">
+				<img src="assets/img/logo.png">
+			</div>
+			<br>
+			<div class="row">
+				<h1>Novelty IDs</h1>
+				<br>
+				<h3>
+					Fast delivery.<br>
+					Locally owned and operated in <br>
+					Athens and Columbus OH.<br>
+				</h3>
+				<br>
 
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
-                            </div>
-                            <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
-                            </div>
-                        </div>
+				<a href="#contact" class="smoothScroll">
+					<button type="button" class="btn btn-warning">Order Now!</button>
+				</a>
+				<div class="col-lg-6 col-lg-offset-3">
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
 
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                            <span class="icon-prev"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                            <span class="icon-next"></span>
-                        </a>
-                    </div>
-                    <h2 class="brand-before">
-                        <small>Welcome to</small>
-                    </h2>
-                    <h1 class="brand-name">Business Casual</h1>
-                    <hr class="tagline-divider">
-                    <h2>
-                        <small>By
-                            <strong>Start Bootstrap</strong>
-                        </small>
-                    </h2>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Build a website
-                        <strong>worth visiting</strong>
-                    </h2>
-                    <hr>
-                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
-                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes
-                        <strong>to showcase your content</strong>
-                    </h2>
-                    <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-            </div>
-        </div>
+	<!-- ========== ABOUT SECTION ========== -->
+	<section id="pricing" name="pricing"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>PRICING</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
-    </div>
-    <!-- /.container -->
+				<!-- INTRO INFORMATIO-->
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>
+						&#36;60: One ID. <br>
+						&#36;80: One ID + duplicate ID (&#36;20).<br><br>
+					</p>
+					<p>
+						<b>Discount on group orders:</b> (5+ people) <br>
+						&#36;50: One ID. <br>
+						&#36;60: One ID + duplicate ID (&#36;10).<br><br><br>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+					</p>
+						<a href="#contact" class="smoothScroll">
+							<button type="button" class="btn btn-warning">Order now!</button>
+						</a>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /f -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+	<!-- ========== CAROUSEL SECTION ========== -->
+	<section id="examples" name="examples"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row centered">
+				<h3>EXAMPLES</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+				<div class="col-lg-6 col-lg-offset-3">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active centered">
+								<img class="img-responsive" src="assets/img/test1.png" alt="">
+								<h4>PA fake ID</h4><br>
+							</div>
+							<div class="item centered">
+								<img class="img-responsive" src="assets/img/test2.png" alt="">
+								<h4>FL fake ID</h4><br>
+							</div>
+						</div>
+						<br>
+						<br>
+						<ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						</ol>
+					</div>
+						<h2>All fake IDs have genuine state holograms.</h2><br>
+						<a href="#contact" class="smoothScroll">
+							<button type="button" class="btn btn-warning">Order now!</button>
+						</a>
+						<br>
+				</div><!-- col-lg-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</div>	<!-- f -->
 
+
+	<!-- ========== CONTACT SECTION ========== -->
+	<section id="contact" name="contact"></section>
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<h3>CONTACT US</h3>
+				<p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+
+
+				<h3>To Place an Order:</h3>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p>
+						For each ID,
+						<a href="mailto:definexy@gmail.com?subject=Order">email</a> or <a href="sms:17403311269">text</a> the following information:<br>
+						<b>1. </b> Full Name <br>
+						<b>2. </b> DOB (only 21+ IDs)<br>
+						<b>3. </b> Height/Weight <br>
+						<b>4. </b> Eye Color/Hair Color <br>
+						<b>5. </b> Desired State (PA or FL)<br>
+						<b>6. </b> Desired Address <br>
+						<b>7. </b> Face Picture for ID<br>
+							<i>&bull; Use the flash <br></i>
+							<i>&bull; iPhone/Android camera is fine <br></i>
+							<i>&bull; No selfies. Have someone else take it or use the timer.<br></i>
+							<i>&bull; Do not use front facing camera or webcam. <br></i>
+							<i>&bull; Include entire head and shoulders, do not crop <br></i>
+							<i>&bull; Do not wear glasses, hat, or other accessories <br></i>
+						<b>8. </b> Signature Picture for ID <br>
+							<i>&bull; Use the flash <br></i>
+							<i>&bull; Use a thick black marker (i.e Sharpie) on plain white paper <br></i>
+					</p>
+					<p>
+						For group orders, send an email or text for each ID <br>
+						so it's easier to keep the information organized. <br>
+						You will pay when you recieve your ID. <br>
+						Orders usually take 1-2 weeks to process. <br>
+						If you need the order faster, let us know. <br>
+					</p>
+
+					<br>
+					<h3> Questions/Comments/Concerns? </h3>
+
+					<p>
+						<b>email:</b> definexy@gmail.com<br>
+						<b>call or text:</b> (740) 331-1269<br>
+						<i>
+							We usually respond to emails and texts within a couple hours (max) <br> and will pretty much always answer the phone 24/7 or give you a call <br> back within a couple hours (max).
+						</i>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
-
 </html>
